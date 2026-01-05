@@ -21,3 +21,14 @@ Hádám, že přidáme možnosti sdílení kontaktů ostatním - manuální - pr
 Taky asi přijdou skupinové chaty, což bude synchronizační výzva sama o sobě.
 
 Něco jsem zapomněl, nebo napsal špatně? Opravte mě!
+
+potenciální obtíže: 
+NAT
+
+existující řešení:
+https://briarproject.org/
+https://tox.chat/
+https://docs.cwtch.im/
+https://scuttlebot.io/more/protocols/secure-scuttlebutt.html
+https://retroshare.cc/
+
