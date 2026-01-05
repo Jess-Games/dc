@@ -27,8 +27,15 @@ NAT
 
 existující řešení:
 - https://briarproject.org/
+  Používá TOR, konkrétně Onion Address Service. Tím taky obchází nutnost znát IP adresy ostatních, nebo mít server, který je zná. Za cenu pomalejší služby (prostě tor routing) je to tak moc anonymizovaná síť, jak jen to jde. Jo a zprávy se posílají jen pokud jsou oba sender i receiver online, ledaže by si založili lokální mailbox. Android/F-Droid. Stále se vyvíjí.
 - https://tox.chat/
-- https://docs.cwtch.im/
+  Připojení přes IP, existují veřejné uzly, kde se ukládá kdo je aktuálně kde připojen (pokud se připojí do uzlu, stávají se viditelní), aby zjistili IP kamaráda a mohli mu/jí psát. Podobný IP systém, jako jsme chtěli my - akorát mají tyhle uzly navíc (ale to by šlo hostovat lokálně). Umí srandičky (videohovory apod), ale dají se stopovat metadata a vytvářet sociální graf (bigtech/nations are capable of that). Není ve vývoji, hotovo. Má různý klienty (asi si můžeme napsat svýho klidně), pro všechny main OS kromě iPhone.
+- https://cwtch.im/
+  Taky používá tor. Má ofiko aplikace pro normální OS kromě iPhone. Nevím, jak moc aktivní je vývoj (5-months last commit). Vypadá v pohodě, ale ničím nezaujalo (kromě hezkýho videa vysvětlující proč).
+- https://tryquiet.org/
+  Zatím pouze Alfa release, ale vypadá krásně. Používá Tor, funguje jako discord/slack. Ještě není stable, tak chybí základní věci (např. join multiple communities, DMs). Podporuje všechny standardní OS (díky electronu), plánují přidat i TorBrowser a následně všechny browsery. Aktivní vývoj.
 - https://scuttlebot.io/more/protocols/secure-scuttlebutt.html
+  Pěknej protokol, mají tam víc různých klientů na tom samym protokolu. Nepoužívá TOR, ale je hodně podobná našemu návrhu, respektive ne tomu finálnímu - mají "bot servery", který mají *veřejnou IP* (proto jsme to zavrhli) a předávají zprávy těm, co jsou právě offline. Taky mají navíc oproti nám rozesílání zašifrovaných zpráv i přes kamarády, my to měli jen jako P2P. Vývoj závisí na klientech, stejně tak podpora OS - ale viděl jsem tam asi všechny.
 - https://retroshare.cc/
+  Fakt retro. Vypadá jako kombinace toru a serverů na navázání komunikace - jak si uživatel vybere. Je to starý, staře vypadající a spíš se to nevyvíjí?
 
