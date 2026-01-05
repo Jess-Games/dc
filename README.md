@@ -26,9 +26,9 @@ potenciální obtíže:
 NAT
 
 existující řešení:
-https://briarproject.org/
-https://tox.chat/
-https://docs.cwtch.im/
-https://scuttlebot.io/more/protocols/secure-scuttlebutt.html
-https://retroshare.cc/
+- https://briarproject.org/
+- https://tox.chat/
+- https://docs.cwtch.im/
+- https://scuttlebot.io/more/protocols/secure-scuttlebutt.html
+- https://retroshare.cc/
 
